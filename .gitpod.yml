@@ -4,7 +4,10 @@
 
 tasks:
   - init: npm install && npm run build
-    command: npm run dev
+    command: |
+      export HRM_HOST=`gp url 5000`
+      echo "Start developing server..."
+      npm run dev
 
 ports:
   - port: 5000
