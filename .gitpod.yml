@@ -5,7 +5,7 @@
 tasks:
   - init: npm install && npm run build
     command: |
-      export HRM_HOST=`gp url 5000`
+      export HMR_HOST=`gp url 5000`
       echo "Start developing server..."
       npm run dev
 

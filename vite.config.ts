@@ -7,7 +7,7 @@ const config: UserConfig = {
 		port:5000,
 		hmr:{
 			clientPort: process.env.HMR_HOST ? 3344 : 5000,
-			host: process.env.HMR_HOST ? process.env.HRM_HOST?.substring("https://".length) : "localhost"
+			host: process.env.HMR_HOST ? process.env.HMR_HOST?.substring("https://".length) : "localhost"
 		}
 	}
 };
