@@ -41,7 +41,7 @@
 </style>
 <div class="todos">
     <h1>{title}</h1>
-    <form action="" method="" class="new">
+    <form action="/todos" method="POST" class="new">
         <input type="text" name="text" placeholder="+ tpye to add todo" aria-label="add-todo">
     </form>
     <TodoItem></TodoItem>
